@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!--  -->
+</head>
+
+<body>
+    <nav class="navbar" style="background-color: blueviolet;">
+
+        <div class="float-left">
+            <a class="navbar-brand text-white float-left" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+                    width="40" height="40" class="d-inline-block align-top" alt="">
+                Home
+            </a>
+            <a class="navbar-brand text-white float-left" href="#">Docs</a>
+            <a class="navbar-brand text-white float-left" href="#">Examples</a>
+            <a class="navbar-brand text-white float-left" href="#">Icons</a>
+            <a class="navbar-brand text-white float-left" href="#">Themes</a>
+            <a class="navbar-brand text-white float-left" href="#">Blog</a>
+        </div>
+        <div class="float-right">
+            <a class="d-inline-block align-top " href="#">
+                <img src="https://2sxc.org/Portals/0/adam/Content/4IqBjx3pXEC7a7-fVX2GBQ/Image/github-logo.png?w=1080&scale=both&quality=50"
+                    alt="" width="30" height="30" class="d-inline-block align-top" >
+            </a>
+            <a href="#">
+                <img src="https://img.etimg.com/thumb/msid-67684689,width-1200,height-900,imgsize-70881,overlay-etpanache/photo.jpg" alt=""
+                width="30" height="30">
+            </a>
+            <a href="#">
+                 <img src="https://img.favpng.com/7/3/22/slack-logo-business-company-workflow-png-favpng-0DWf4v1yFP6N7WfzQpM6Kfi5j.jpg" alt="" width="30" height="30"></a>
+                 <a href="#" style="text-decoration: none; border: medium ; border: solid ; border-radius: 5px; border-color: fuchsia; background-color:greenyellow;"  >Download</a>
+        </div>
+
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <!-- Image and text -->
+
+    <div class="container;float-right" >
+        <a class=" mt-5 float-right  col-xl-5 mx-auto d-block mx-6 ml-2" href="#" >
+            <img  src="https://icons.getbootstrap.com/assets/img/icons-hero.png"  width="350" height="350"
+                class="d-inline-block align-top">
+        </a>
+    </div>
+    <div class="col-md-8 order-md-1 col-lg-7 text-center text-md-start">
+        <h1 class="mb-3 mt-5">Build fast, responsive sites with Bootstrap</h1>
+        <p class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular
+            front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+            prebuilt components, and powerful JavaScript plugins.
+        </p>
+        <div class=" d-flex flex-column flex-md-row ">
+            <a href="#" class=" ml-2 btn btn-lg btn-outline-secondary mb-3  mr-sm-2 "
+                style="background-color: blue; color: white;" onclick="Animation">Get started</a>
+            <a href="#" class="btn btn-lg btn-outline-secondary mb-3" onclick="">Download</a>
+        </div>
+        <p class="text-muted mb-0 float-left">
+            Currently <strong>v5.0.0</strong>
+            <span class="px-1">&middot;</span>
+            <a href="" class="link-secondary">v4.6.x docs</a>
+            <span class="px-1">&middot;</span>
+            <a href="" class="link-secondary">All releases</a>
+        </p>
+    </div>
+
+    <div class=" ml-4 container masthead-followup px-4 px-md-3 float-left mt-5">
+        <section class="row mb-5 pb-md-4 align-items-center">
+            <div class="col-md-5">
+                <div class="masthead-followup-icon d-inline-block mb-2 text-white bg-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" focusable="false"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5.854 4.146a.5.5 0 010 .708L2.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm4.292 0a.5.5 0 000 .708L13.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <h2 class="display-5 fw-normal">Installation</h2>
+                <p class="lead fw-normal">
+                    Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.
+                </p>
+                <p>Package managed installs don’t include documentation or our full build scripts. You can also <a
+                        href="">use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
+                <a class="btn btn-lg btn-outline-primary mb-3" href="">Read installation docs</a>
+            </div>
+            <div class="col-md-7 ps-md-5 ">
+                <div class=" highlight  ">
+                    <pre class="chroma"><code class="language-sh" data-lang="sh">npm install bootstrap</code></pre>
+                </div>
+                <div class=" highlight  ">
+                    <pre
+                        class="chroma"><code class="language-sh" data-lang="sh">gem install bootstrap -v 5.0.0</code></pre>
+                </div>
+            </div>
+
+            <section class="row mb-5 pb-md-4 align-items-center mt-5 ">
+                <div class="col-md-5  float-left">
+                    <div class="masthead-followup-icon d-inline-block mb-2 text-white bg-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            focusable="false" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M3.5 13a3.5 3.5 0 11.59-6.95 5.002 5.002 0 119.804 1.98A2.5 2.5 0 0113.5 13h-10z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h2 class="display-5 fw-normal">jsDelivr</h2>
+                    <p class="lead fw-normal mr-sm-2">
+                        When you only need to include Bootstrap’s compiled CSS or JS, you can use <a
+                            href="">jsDelivr</a>.
+                    </p>
+                    <p>
+                        See it in action with our simple <a href="">starter template</a>, or <a href="">browse the
+                            examples</a> to jumpstart your next project. You can also choose to include Popper and our
+                        JS <a href="/docs/5.0/getting-started/introduction/#separate">separately</a>.
+                    </p>
+                    <a class="btn btn-lg btn-outline-primary mb-3" href="">Explore the docs</a>
+                </div>
+                <div class="col-md-7 ps-md-5">
+                    <div class="highlight">
+                        <pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- CSS only --&gt;</span>
+<span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css&#34;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0&#34;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span><span class="p">&gt;</span>
+</code></pre>
+                    </div>
+                    <div class="highlight">
+                        <pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- JavaScript Bundle with Popper --&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js&#34;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8&#34;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&#34;anonymous&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row mb-5 pb-md-4 align-items-center mt-5 float-left">
+                <div class="col-md-5">
+                    <div class="masthead-followup-icon d-inline-block mb-2 text-white bd-bg-purple-bright">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            focusable="false" viewBox="0 0 16 16">
+                            <path d="M0 6a6 6 0 1112 0A6 6 0 010 6z" />
+                            <path
+                                d="M12.93 5h1.57a.5.5 0 01.5.5v9a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5v-1.57a6.953 6.953 0 01-1-.22v1.79A1.5 1.5 0 005.5 16h9a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 4h-1.79c.097.324.17.658.22 1z" />
+                        </svg>
+                        <a> <img src="C:\Users\DELL\Desktop\bootstrap\bootstrap4.jpg" width="50" height="50"></a>
+
+                    </div>
+
+                    <h2 class="display-5 fw-normal">Bootstrap Icons</h2>
+                    <p class="lead fw-normal">
+                        For the first time ever, Bootstrap has its own open source SVG icon library, designed to work
+                        best with our components and documentation.
+                    </p>
+                    <p>
+                        Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any
+                        project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and
+                        can be styled with CSS.
+                    </p>
+                    <a href="" class="btn btn-lg btn-outline-primary mb-3">Get Bootstrap Icons</a>
+                </div>
+
+                <a class="mt-5 float-right  col-xl-5 mx-auto d-block mx-6 ml-2" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" width="350" height="450"
+                        class="d-inline-block align-top" alt="">
+                </a>
+            </section>
+
+            <section class="row mb-5 pb-md-4 align-items-center">
+                <div class="col-md-5">
+                    <div class="masthead-followup-icon d-inline-block mb-2 text-white bg-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            focusable="false" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 16a6 6 0 006-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 006 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h2 class="display-5 fw-normal">Official Themes</h2>
+                    <p class="lead fw-normal">
+                        Take Bootstrap to the next level with premium themes from the <a href="">official Bootstrap
+                            Themes marketplace</a>.
+                    </p>
+                    <p>
+                        Themes are built on Bootstrap as their own extended frameworks, rich with new components and
+                        plugins, documentation, and powerful build tools.
+                    </p>
+                    <a href="" class="btn btn-lg btn-outline-primary mb-3">Browse themes</a>
+                </div>
+                <div class="col-md-7 ps-md-5">
+                    <img class="img-fluid mt-3 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCvA296HIRDFfZkbuTbWezqBupXJiBGThQ&usqp=CAU"
+                        alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <footer class="bd-footer py-5 mt-5 bg-light">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-lg-3 mb-3">
+                                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                                    aria-label="Bootstrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2"
+                                        viewBox="0 0 118 94" role="img">
+                                        <title>Bootstrap</title>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="fs-5">Bootstrap</span>
+                                </a>
+                                <ul class="list-unstyled small text-muted">
+                                    <li class="mb-2">Designed and built with all the love in the world by the <a
+                                            href="">Bootstrap team</a> with the help of <a href="">our contributors</a>.
+                                    </li>
+                                    <li class="mb-2">Code licensed <a href="" target="_blank"
+                                            rel="license noopener">MIT</a>, docs <a href="" target="_blank"
+                                            rel="license noopener">CC BY 3.0</a>.</li>
+                                    <li class="mb-2">Currently v5.0.0.</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                                <h5>Links</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="">Home</a></li>
+                                    <li class="mb-2"><a href="">Docs</a></li>
+                                    <li class="mb-2"><a href="">Examples</a></li>
+                                    <li class="mb-2"><a href="">Themes</a></li>
+                                    <li class="mb-2"><a href="">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2 mb-3">
+                                <h5>Guides</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="">Getting started</a></li>
+                                    <li class="mb-2"><a href="">Starter template</a></li>
+                                    <li class="mb-2"><a href="">Webpack</a></li>
+                                    <li class="mb-2"><a href="">Parcel</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2 mb-3">
+                                <h5>Projects</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="">Bootstrap 5</a></li>
+                                    <li class="mb-2"><a href="">Bootstrap 4</a></li>
+                                    <li class="mb-2"><a href="">Icons</a></li>
+                                    <li class="mb-2"><a href="">RFS</a></li>
+                                    <li class="mb-2"><a href="">npm starter</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2 mb-3">
+                                <h5>Community</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="">Issues</a></li>
+                                    <li class="mb-2"><a href="">Discussions</a></li>
+                                    <li class="mb-2"><a href="">Corporate sponsors</a></li>
+                                    <li class="mb-2"><a href="">Open Collective</a></li>
+                                    <li class="mb-2"><a href="">Slack</a></li>
+                                    <li class="mb-2"><a href=">Stack Overflow</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </section>
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
